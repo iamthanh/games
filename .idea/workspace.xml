@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a40d5c84-316a-4ce7-ae60-ec189cf58d79" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/creature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/creature.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/creature.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/p2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/p2.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/p2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-arcade-physics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-arcade-physics.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-arcade-physics.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-creature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-creature.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-creature.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-minimum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-minimum.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-minimum.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-no-physics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-no-physics.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-no-physics.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-split.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/phaser-split.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/pixi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/pixi.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/custom/pixi.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/phaser.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/build/phaser.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/BinarySerpents.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/BlurX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/BlurY.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/CausticLight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/CheckerWave.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/ColorBars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Fire.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/HueRotate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/LazerBeam.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/LightBeam.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Marble.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Pixelate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Plasma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/SampleFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/Tunnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/AlphaMaskFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/AsciiFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/BlurFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/BlurXFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/BlurYFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/ColorMatrixFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/ColorStepFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/ConvolutionFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/CrossHatchFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/DisplacementFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/DotScreenFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/GrayFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/InvertFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/NoiseFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/NormalMapFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/PixelateFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/RGBSplitFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/SepiaFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/SmartBlurFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/TiltShiftFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/TiltShiftXFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/TiltShiftYFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/filters/pixi/TwistFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/out/data.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/out/docs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/phaser-logo-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/Intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/Outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/Phaser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/PixiDefaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/Animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/AnimationManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/AnimationParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/Frame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/FrameData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/creature/CreatureMeshBone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/animation/creature/gl-matrix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Camera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/FlexGrid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/FlexLayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/PluginManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/ScaleManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Signal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/SignalBinding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/Stage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/State.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/StateManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/core/World.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/BitmapData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/BitmapText.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Creature.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/GameObjectCreator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/GameObjectFactory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Graphics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/GraphicsData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Particle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/RenderTexture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/RetroFont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Rope.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Sprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/SpriteBatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/TileSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/Video.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Angle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Animation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/AutoCull.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Bounds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/BringToTop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Crop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Delta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/FixedToCamera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Health.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/InCamera.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/InWorld.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/InputEnabled.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/LifeSpan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/LoadTexture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Overlap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/PhysicsBody.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Reset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/ScaleMinMax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/gameobjects/components/Smoothed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Circle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Ellipse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Hermite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Matrix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Point.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Polygon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/Rectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/geom/RoundedRectangle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/DeviceButton.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Gamepad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/InputHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Key.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Keyboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/MSPointer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Mouse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Pointer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/SinglePad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/input/Touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/loader/Cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/loader/Loader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/loader/LoaderParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/math/Math.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/math/QuadTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/math/RandomDataGenerator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/net/Net.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/particles/Particles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/particles/arcade/ArcadeParticles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/particles/arcade/Emitter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/Physics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/arcade/Body.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/arcade/TilemapCollision.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/arcade/World.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/ninja/AABB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/ninja/Body.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/ninja/Circle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/ninja/Tile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/ninja/World.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/Body.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/BodyDebug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/CollisionGroup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/ContactMaterial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/DistanceConstraint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/FixtureList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/GearConstraint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/InversePointProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/LockConstraint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/Material.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/PointProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/PrismaticConstraint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/RevoluteConstraint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/RotationalSpring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/Spring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/World.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/physics/p2/p2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/Intro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/Outro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/Pixi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/display/DisplayObject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/display/DisplayObjectContainer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/display/Sprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/canvas/CanvasGraphics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/canvas/CanvasRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/canvas/utils/CanvasBuffer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/canvas/utils/CanvasMaskManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/canvas/utils/CanvasTinter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/WebGLRenderer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/shaders/ComplexPrimitiveShader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/shaders/PixiFastShader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/shaders/PixiShader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/shaders/PrimitiveShader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/shaders/StripShader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/FilterTexture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLBlendModeManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLFastSpriteBatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLFilterManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLGraphics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLMaskManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLShaderManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLShaderUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLSpriteBatch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/renderers/webgl/utils/WebGLStencilManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/textures/BaseTexture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/pixi/textures/Texture.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/path/EventTarget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/path/Path.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/path/PathFollower.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/path/PathManagerPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/path/PathPoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/weapon/Bullet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/plugins/weapon/WeaponPlugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/sound/AudioSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/sound/Sound.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/sound/SoundManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/Color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/Create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/DOM.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/Debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/Net.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/ScaleManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/SoundManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/TileSprite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/stubs/TweenManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/ImageCollection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/Tile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/Tilemap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/TilemapLayer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/TilemapParser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tilemap/Tileset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/time/Time.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/time/Timer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/time/TimerEvent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tween/Easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tween/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tween/TweenData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/tween/TweenManager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/ArraySet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/ArrayUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/Canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/CanvasPool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/Color.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/DOM.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/Debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/Device.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/EarCut.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/LinkedList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/RequestAnimationFrame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/src/utils/Utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/banner.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/buildtsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-conf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/filterpixi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/namealias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/p2completeclass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/proptomember.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/shortlinks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdoc-plugins/sourceproxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/jsdocexportjson-conf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/animation.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/bitmapdata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/bitmaptext.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/color.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/color.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/components.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/core.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/create.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/create.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/creature-global.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/creature.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/debug.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/debug.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/dom.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/dom.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/flexgrid.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/gameobjects.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/gamepad.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/geom.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/graphics.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/input.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/intro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/keyboard.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/loader.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/math.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/net.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/net.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/outro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/p2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/particles.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/particles.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/phaser.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.arcade.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.arcade.tilemaps.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.arcade.weapon.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.ninja.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/physics.p2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/pixi-intro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/pixi-main.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/pixi-outro.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/pixidefs.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/rendertexture.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/retrofont.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/rope.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/scale.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/scale.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/sound.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/sound.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/system.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/text.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/tilemaps.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/tilesprite.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/tilesprite.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/time.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/tweens.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/tweens.stub.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/utils.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/manifests/video.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/buildtsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/connect.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/copy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/gitclone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/jsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/jshint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/replace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/options/uglify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/pixidoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/tasks/yuidoc-to-jsdoc/converter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/box2d.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/p2.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/phaser.comments.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/phaser.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/phaser_box2d.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/pixi.comments.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/pixi.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/tslint.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/typescript/typings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/phaser-ce/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="games" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phaser-ce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a40d5c84-316a-4ce7-ae60-ec189cf58d79" name="Default" comment="" />
+      <created>1496904244038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496904244038</updated>
+      <workItem from="1496904245304" duration="680000" />
+      <workItem from="1496906945326" duration="48000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="728000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1027" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
