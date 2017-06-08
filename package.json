@@ -1,0 +1,23 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "games dev by thanh tran",
+  "main": "index.js",
+  "dependencies": {
+    "phaser-ce": "^2.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run-game"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick120187/games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick120187/games/issues"
+  },
+  "homepage": "https://github.com/nick120187/games#readme"
+}
