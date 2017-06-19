@@ -10,20 +10,26 @@
     <meta http-equiv="cleartype" content="on">
 
     <style>
-        html,
-        body {
+        html, body {
             margin: 0;
             padding: 0;
+            position: relative;
+            height: 100vh;
+            background: black;
+        }
+        #game-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
     </style>
 </head>
 
 <body>
-
-    <div id="content"></div>
+    <div id="game-container"></div>
     <script src="dist/vendor.bundle.js"></script>
     <script src="dist/bundle.js"></script>
-
 </body>
 
 </html>
