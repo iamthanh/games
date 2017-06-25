@@ -82,7 +82,7 @@ export default class extends Phaser.State {
         this.weapon.bulletAngleVariance = 2;
 
         // Limiting the total amount bullets allowed
-        this.weapon.fireLimit = 100;
+        this.weapon.fireLimit = 1000;
 
         this.weapon.fireFrom.x = 10;
         this.weapon.fireFrom.y = 100;
